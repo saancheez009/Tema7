@@ -11,7 +11,7 @@ public class Main {
 		
 		Scanner sc = new Scanner (System.in);
 		
-		CuentaCorriente cuenta = new CuentaCorriente("109236037L", "Britany", 200);
+		CuentaCorriente cuenta = new CuentaCorriente("09236037L", "Britany", 200);
 		
 		System.out.println("Seleccione la operación que desea realizar");
 		System.out.println("1. Sacar dinero");
@@ -29,10 +29,10 @@ public class Main {
 			break;
 			
 		case 2:
-		System.out.println("Por favor ingrese la cantidad a ingresar: ");
-		cantidad=sc.nextInt();
-		cuenta.ingresarDinero(cantidad);
-		System.out.println(cuenta.mostrarInformacion());
+			System.out.println("Por favor ingrese la cantidad a ingresar: ");
+			cantidad=sc.nextInt();
+			cuenta.ingresarDinero(cantidad);
+			System.out.println(cuenta.mostrarInformacion());
 		break;
 		}
 		
