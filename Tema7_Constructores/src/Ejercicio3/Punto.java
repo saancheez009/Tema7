@@ -2,9 +2,20 @@ package Ejercicio3;
 
 public class Punto {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
+		
+		int x;
+		int y;
+		
+		public Punto(int y, int x) {
+			super();
+			this.x = x;
+			this.y = y;
+		}
+		
+		
 
 	}
 
-}
+	
+
